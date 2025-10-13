@@ -7,7 +7,7 @@ const authMiddleware = require('./middleware/authMiddleware');
 const app = express();
 app.use(express.json());
 
-// Rotas públicas
+// otas públicas
 app.use('/auth', authRoutes);
 
 // Rota protegida
